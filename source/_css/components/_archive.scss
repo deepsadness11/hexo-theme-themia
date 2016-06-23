@@ -35,3 +35,16 @@
         }
     }
 }
+
+@media #{$xsmall-and-down} {
+  .archive {
+      .archive-posts {
+          .archive-post {
+              .archive-post-date {
+                  color: map-get($colors, light);
+                  float: none;;
+              }
+          }
+      }
+  }
+}

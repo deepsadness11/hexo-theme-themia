@@ -1203,6 +1203,11 @@ blockquote {
     content: '\f0da';
     font-size: 1.3rem; }
 
+@media only screen and (max-width: 479px) {
+  .archive .archive-posts .archive-post .archive-post-date {
+    color: #9eabb3;
+    float: none; } }
+
 .boxes {
   margin-top: 20px; }
   .boxes .box:nth-child(n + 2) {
