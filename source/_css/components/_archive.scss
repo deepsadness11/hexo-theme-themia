@@ -14,8 +14,6 @@
         list-style: none;
 
         .archive-post {
-            font-size: map-get($font-size, medium);
-
             .archive-post-title {
                 margin-left: 10px;
                 color:       $font-color-base;
@@ -26,6 +24,7 @@
             }
             .archive-post-date {
                 color: map-get($colors, light);
+                float: right;
             }
             // Change styl of the list by adding font-awesome icon
             &::before {

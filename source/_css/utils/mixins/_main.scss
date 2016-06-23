@@ -1,3 +1,10 @@
+/// Mixin helper to stylized `main` div in xsmall size
+@mixin main-xsm {
+    padding-top: map-get($main, padding-top);
+    float:       right;
+    width:       calc(100% - #{map-get($sidebar, xlg-screen-total-width)});
+}
+
 /// Mixin helper to stylized `main` div in small size
 @mixin main-sm {
     padding-top: map-get($main, padding-top);
