@@ -1646,6 +1646,14 @@ a.fancybox {
       border-radius: 7px; }
     .post .post-content :not(blockquote):not(.alert) > p {
       margin: 1.5em 0 0 0; }
+  .post .fancybox img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    object-fit: fill;
+    margin-left: inherit;
+    margin-right: inherit;
+    border-radius: inherit; }
   .post .post-footer {
     margin-top: 20px; }
     .post .post-footer-tags {
@@ -1910,6 +1918,14 @@ a.fancybox {
       margin-left: auto;
       margin-right: auto;
       border-radius: 7px; }
+  .postShorten .fancybox img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    object-fit: fill;
+    margin-left: inherit;
+    margin-right: inherit;
+    border-radius: inherit; }
   .postShorten .postShorten-excerpt {
     margin-bottom: 15px; }
   .postShorten .postShorten-content {
